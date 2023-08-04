@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #ffffff;
+  }
+  .container {
+    max-width: 1276px;
+    min-height: 851px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 10);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    
+    transform: translate(-50%, -31%);
+  }
+  
+    .banner {
+      width: 795px;
+      height: 185px;
+      margin: 25px;
+      background-image: linear-gradient(to right, rgb(233, 73, 42), rgb(231, 35, 87));
+  }
+  
+  .principal{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .carousel {
+    width: 704px;
+    height: 314px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slide-container {
+    display: flex;
+    width: 300%;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    width: 700px;
+    height: 314px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 8px 16px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .materia{
+    width: 700px;
+  }
+  
+  .sem-borda{
+    margin: 7px;
+  }
+  
+  .texto{
+    margin: 7px;
+    color: rgb(116, 120, 122);
+  }
+  
+  .fonte{
+    margin: 11px;
+    color: rgb(206, 206, 206);
+    display: inline-block;
+  }
+  
+  .colored-hr {
+    width: 331px;
+    height: 6px;
+    background: linear-gradient(to right, rgb(226, 41, 92), rgb(108, 91, 163));
+    border: none;
+    margin: 7px auto;
+  }
+  
+  .prev-button {
+    left: 16px;
+  }
+  
+  .next-button {
+    right: 16px;
+  }
